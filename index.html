@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgical Datasets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Public Datasets about Surgical Vision</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#challenges">Recent Active Challenges</a></li>
+            <li><a href="#workflow_recognition">Workflow Recognition</a></li>
+            <li><a href="#tool_detection">Tool Presence or BBox Detection</a></li>
+            <li><a href="#scene_segmentation">Scene Segmentation</a></li>
+            <li><a href="#other_sites">Other Useful Websites</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="challenges">
+            <h2>Recent Active Challenges</h2>
+            <ul>
+                <li><a href="https://endovis.grand-challenge.org/">MICCAI21 HeiSurf</a>: HeiChole Surgical Workflow Analysis and Full Scene Segmentation</li>
+                <li>GIANA: Gastrointestinal ImAge NAlysis</li>
+                <li>CholecTriplet2021: Surgical Action Triplet Recognition</li>
+                <li>FetReg: Placental Vessel Segmentation and Registration in Fetoscopy</li>
+                <li>PETRAW: PEg TRAnsfer Workflow recognition by different modalities</li>
+                <li>SimSurgSkill: Objective Surgical Skill Assessment in VR Simulation</li>
+            </ul>
+        </section>
+        <section id="workflow_recognition">
+            <h2>Workflow Recognition (artificial surgery; a.k.a. phase recognition)</h2>
+            <ul>
+                <li><a href="http://camma.u-strasbg.fr/datasets">Cholec80</a>, 2017 TMI :star::star::star::star::star:
+                    <p>Task: phase and tool recognition<br>
+                    80 videos of cholecystectomy surgeries (40 train/ 40 test)<br>
+                    25fps phase annotation & 7 classes; 1fps tool & 7 classes</p>
+                </li>
+                <li><a href="http://camma.u-strasbg.fr/m2cai2016/">M2CAI-phase</a>, 2016 MICCAI challenge :star::star::star::star::star:
+                    <p>41 videos of cholecystectomy surgeries (27 train/ 14 test)<br>
+                    25fps phase annotation & 8 classes</p>
+                </li>
+                <li><a href="https://zenodo.org/record/1220951#.XRHrC_kzaos">Cataract-101</a>, <a href="http://www.itec.aau.at/~mt/wp/wp-content/uploads/2018/04/cat101-mmsys-2018.pdf">2018 paper</a> :star::star::star::star:
+                    <p>Data:101 videos recording cataract surgery;<br>
+                    totally 14 hours, 2 minutes, and 5 seconds duration<br>
+                    10 classes for phase</p>
+                </li>
+                <!-- Add more datasets as needed -->
+            </ul>
+        </section>
+        <section id="tool_detection">
+            <h2>Tool Presence or Bbox Detection</h2>
+            <ul>
+                <li><a href="http://camma.u-strasbg.fr/m2cai2016/">M2CAI-tool</a>, 2016 MICCAI challenge :star::star::star:
+                    <p>Task: tool recognition<br>
+                    15 videos of cholecystectomy surgeries (10 train/ 5 test)<br>
+                    25fps tool annotation & 7 classes</p>
+                </li>
+                <!-- Add more datasets as needed -->
+            </ul>
+        </section>
+        <section id="scene_segmentation">
+            <h2>Scene Segmentation</h2>
+            <ul>
+                <li><a href="https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Home/">MICCAI18</a>, 2018 MICCAI challenge :star::star::star::star::star:
+                    <p>Task: entire scene segmentation<br>
+                    Data: 16*149 train, 2*500 test<br>
+                    Label: pixel wise scene label</p>
+                </li>
+                <!-- Add more datasets as needed -->
+            </ul>
+        </section>
+        <section id="other_sites">
+            <h2>Other useful websites for surgical datasets</h2>
+            <ul>
+                <li><a href="http://opencas.webarchiv.kit.edu/">OpenCAS</a></li>
+                <li><a href="http://nearlab.polimi.it/medical/dataset/">NearLab</a></li>
+                <li><a href="http://hamlyn.doc.ic.ac.uk/vision/">Hamlyn Centre</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Surgical Vision Datasets. All rights reserved.</p>
+    </footer>
+</body>
+</html>
